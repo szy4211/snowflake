@@ -6,7 +6,7 @@
  * @author zornshuai@foxmail.com
  */
 
-namespace SnowFlake;
+namespace Snowflake;
 
 /**
  * Class SnowFlake
@@ -21,7 +21,7 @@ namespace SnowFlake;
  * @package App\Services
  * @date 2019-07-17
  */
-class SnowFlake
+class Snowflake
 {
     const EPOCH = 1533700800000; // 自定义开始（毫秒）基值，当小于当前时间（毫秒）
     const LEFT_TIME_MILLIS = 22; // 时间戳左移 12 + 10
