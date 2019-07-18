@@ -96,7 +96,7 @@ class Snowflake
      * 使用缓存来确保同一毫秒内多线程读取到唯一数值
      *
      * @param int $time
-     * @return bool|int
+     * @return int
      * @date 2019-07-18
      */
     protected function getSequence(int $time): int
